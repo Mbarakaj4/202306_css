@@ -1,92 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet" >
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="nav">
-        <h1 class="nav-title">Profile</h1>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-            <li><button class="btn">Sign Out</button></li>
-        </ul>
-    </div> 
-    <div class="row">
-        <div class="col">
-            <div class="flex-container">
-                <div class="user-card">
-                    <div class="card-header">
-                        <img src="icons/user-circle.png" alt="user-circle" class="avatar-m">
-                    </div>
-                    <div class="card-body">
-                        <h1>Jane Doe</h1>
-                        <h3>
-                        <img src="icons/map-marker.png" alt="pin" class="icon-s"> 
-                        Seattle
-                        </h3>
-                        <p>Developer | Engineer | Problem Solver<br>
-                        Master of shadows and the Internet!</p>
-                        <p>
-                            <a href="#">
-                                <img src="icons/gear.png" alt="gear" class="icon-s"> 
-                                edit profile
-                            </a>
-                        </p>
-                    </div>
-                </div>  
-            </div>
-            <div class="flex-container">
-                <div class="box-card">
-                    <div class="box-header">
-                        <h3>Education</h3>
-                    </div>
-                    <div class="box-body">
-                        <p>
-                            Coding Dojo - Full Stack Bootcamp
-                        </p>
-                        <p>
-                            Dec 2019 - Mar 2020
-                        </p>
-                        <p>
-                            Triple black belt in Python, MERN, and C#...
-                        </p>
-                        
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <div class="col">
-            <div class="flex-container">
-                <div class="box2-card">
-                    <div class="box2-header">
-                        <h4>
-                            Connection Requests
-                        </h4>
-                    </div>
-                    <div class="box-body">
-                        
-                    </div>
-                </div>  
-            </div>
-            <div class="flex-container">
-                <div class="box2-card">
-                    <div class="box2-header">
-                        <h4>
-                            Your Connections
-                        </h4>
-                    </div>
-                    <div class="box-body">
-                        
-                    </div>
-                </div>  
-            </div> 
-        </div>
+      <h1 class="nav-title">Profile</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#">Find Connections</a></li>
+        <li><button class="btn">Sign Out</button></li>
+      </ul>
     </div>
-</body>
+    <div class="row">
+      <div class="col">
+        <div class="flex-container">
+          <div class="user-card">
+            <div class="card-header">
+              <img
+                src="icons/user-circle.png"
+                alt="user-circle"
+                class="avatar-m" >
+            </div>
+            <div class="card-body">
+              <h1>Jane Doe</h1>
+              <h3>
+                <img src="icons/map-marker.png" alt="pin" class="icon-s" >
+                Seattle
+              </h3>
+              <p>
+                Developer | Engineer | Problem Solver<br >
+                Master of shadows and the Internet!
+              </p>
+              <p>
+                <a href="#">
+                  <img src="icons/gear.png" alt="gear" class="icon-s" >
+                  edit profile
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="box-card">
+            <div class="box-header">
+              <h3>Education</h3>
+            </div>
+            <div class="box-body">
+              <h2>Coding Dojo - Full Stack Bootcamp</h2>
+              <p>Dec 2019 - Mar 2020</p>
+              <p>Triple black belt in Python, MERN, and C#...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="flex-container">
+          <div class="box2-card">
+            <div class="box2-header">
+              <div class="notifications">
+                <p>2</p>
+              </div>
+              <h4>Connection Requests</h4>
+            </div>
+            <div class="box-body">
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/todd-s.jpg " alt="todd-s" >
+                </div>
+                <div class="col">
+                  <h3>Todd E</h3>
+                </div>
+                <div class="col">
+                  <img
+                    class="icons-btn"
+                    src="icons/accept-circle.png"
+                    alt="accept" >
+                  <img
+                    class="icons-btn"
+                    src="icons/close-circle.png"
+                    alt="deny" >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/phil-s.jpg" alt="phil-s" >
+                </div>
+                <div class="col">
+                  <h3>Phil K</h3>
+                </div>
+                <div class="col">
+                  <img
+                    class="icons-btn"
+                    src="icons/accept-circle.png"
+                    alt="accept" >
+                  <img
+                    class="icons-btn"
+                    src="icons/close-circle.png"
+                    alt="deny" >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="box2-card">
+            <div class="box2-header">
+              <div class="notifications">
+                <p>500+</p>
+              </div>
+              <h4>Your Connections</h4>
+            </div>
+            <div class="box-body">
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/adrien-s.jpg " alt="Adrien" >
+                </div>
+                <div class="col">
+                  <h3>Adrien D</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/anne-s.jpg" alt="Anne" >
+                </div>
+                <div class="col">
+                  <h3>Anne J</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/alayne-s.jpg" alt="Alayne" >
+                </div>
+                <div class="col">
+                  <h3>Alayne T</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img class="icons" src="images/arry-s.jpg" alt="Arry" >
+                </div>
+                <div class="col">
+                  <h3>Arry Y</h3>
+                </div>
+              </div>
+            </div>
+            <div class="box-body">
+                <a href="" target="_blank" rel="noopener noreferrer">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
